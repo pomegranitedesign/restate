@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import Filter from '../components/Filter'
+import PropertyList from '../components/PropertyList'
 
 const Properties = (props) => {
 	return (
 		<div>
 			<Title>Premium Property Finder</Title>
 			<Filter />
+			<PropertyList />
 		</div>
 	)
 }
